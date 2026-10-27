@@ -59,7 +59,7 @@ st.caption("Pergunte sobre plantio, pragas, clima e mercado agrícola.")
 # --- CONFIGURAÇÃO DA API ---
 # Aqui você cola a sua chave de API.
 # (Dica: em produção, a gente não coloca a chave no código, mas sim em variáveis de ambiente).
-API_KEY = API_KEY = st.secrets["GEMINI_API_KEY"] # Substitua pela sua chave de API do Google GenAI
+API_KEY = API_KEY = st.secrets["GEMINI_API_KEY"]
 # Cria o cliente que vai se conectar com o Google.
 client = genai.Client(api_key=API_KEY)
 
